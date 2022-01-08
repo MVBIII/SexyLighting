@@ -28,5 +28,5 @@ while True:
         greenstep = -greenstep
     if blue>250 or blue<3:
         bluestep = -bluestep
-    strip.fill((red, green , blue))
+    strip.fill((0, green , blue))
     strip.show()
